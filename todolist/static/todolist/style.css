@@ -1,0 +1,38 @@
+body {
+    background-color: #b7b7a4;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: medium;
+    font-weight: 500;
+    color: #fff;
+}
+
+#wrapper {
+    margin-top: 10% !important;
+}
+
+#content {
+    background: #0077b6;
+}
+
+#content > p {
+    text-align: center;
+    padding-top: 0;
+}
+
+#add-btn {
+    background-color: #0A9396;
+    border-color: #0A9396;
+    color: #fff;
+}
+
+.t10 {
+	margin-top: 10px;
+}
+
+.t20 {
+	margin-top: 20px;
+}
+
