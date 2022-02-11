@@ -36,3 +36,7 @@ p {
 	margin-top: 20px;
 }
 
+.todo-completed {
+	text-decoration: line-through;
+	background: rgba(149, 165, 166, .3);
+}

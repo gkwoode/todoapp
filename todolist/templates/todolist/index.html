@@ -44,9 +44,14 @@
                         </div>
                     </div>
                     <ul class="list-group t20">
-                        <li class="list-group-item">Django Programming</li>
-                        <li class="list-group-item">Django Programming</li>
-                        <li class="list-group-item">Django Programming</li>
+                        <!-- Loop to display the list -->
+                        {% for todolist in todo_items %}
+                            {% if todolist.completed %}
+                            <li class="list-group-item todo-completed">{{todolist.text}}</li>
+                            {% else %}
+                            <a href="#"><li class="list-group-item">{{todolist.text}}</li></a>
+                            {% endif %}
+                        {% endfor %}
                     </ul>
                 </div>
             </div>
